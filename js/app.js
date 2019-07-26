@@ -6,11 +6,11 @@ window.addEventListener('scroll', function(ev) {
 
     if(window.pageYOffset > sticky){
         navigation.classList.add('nav-animation-active');
-        navigation.classList.remove('nav-animation-deactive');
+        navigation.classList.remove('animation-deactive');
     }
     else {
         navigation.classList.remove('nav-animation-active');
-        navigation.classList.add('nav-animation-deactive');
+        navigation.classList.add('animation-deactive');
 
     }
 });
