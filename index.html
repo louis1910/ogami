@@ -9,10 +9,12 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/assitant.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>Ogami</title>
 </head>
 <body>
-
+<!--header-->
     <header>
         <div class="navigation sticky">
             <div class="nav-header d-flex justify-content-between align-items-center" id="navigation">
@@ -47,19 +49,19 @@
             </div>
         </div>
     </header>
-
+<!--bg-intro-->
     <section>
         <div class="bg-intro">
             <div class="bg"><img src="./images/bg-slide-01.jpg" alt="" style="width: 100%; height: auto;"></div>
         </div>
     </section>
-
-    <section style="padding-top: 145px;">
+<!--welcome-->
+    <section class="p-t-145">
         <div class="sec-welcome">
             <div class="container">
                 <div class="site">
                     <div class="welcome-title d-flex align-items-center justify-content-center">
-                        <div class="bg-wel" style="position: absolute">
+                        <div class="txt-3-symbol" style="position: absolute">
                             Green Agriculture
                         </div>
                         <div class="symbol" style="position: absolute">
@@ -166,7 +168,7 @@
             </div>
         </div>
     </section>
-
+<!--category-->
     <div class="item-category d-flex">
 
         <div class="category cate-one">
@@ -230,8 +232,7 @@
         </div>
 
     </div>
-
-
+<!--product-->
     <div class="sec-product">
         <div class="container">
             <div class="site" style="padding-bottom: 40px;">
@@ -470,8 +471,8 @@
 
         </div>
     </div>
-
-    <section class="bg-deal" style="background: url('./images/bg-01.jpg');">
+<!--deal-->
+    <section class="bg-deal posit-r" style="background: url('./images/bg-01.jpg');">
         <div class="sec-deal d-flex">
             <div class="deal-pic">
                 <img src="./images/other-02.png" alt="">
@@ -479,20 +480,20 @@
 
             <div class="deal-content d-flex flex-column align-items-start">
                 <div class="deal-title d-flex align-items-center justify-content-center">
-                    <div class="deal-txt-symbol">
+                    <div class="txt-3-symbol">
                         Best Price For You
                     </div>
-                    <div class="deal-symbol" style="position: absolute">
+                    <div class="deal-symbol posit-a">
                         <img src="./images/symbol-02.png" alt="symbol">
                     </div>
                 </div>
-                <h3>DEAL OF THE DAY</h3>
+                <h3 class="txt-1-bolder">DEAL OF THE DAY</h3>
 
-                <div class="deal-txt">
+                <div class="deal-txt txt-1-bold">
                     <a href="#">Roasted corn</a>
                 </div>
 
-                <div class="deal-txt">
+                <div class="deal-txt txt-1-bold">
                     <span class="d-price">$20</span>
                     <span class="sale-price">Now Only $19.5</span>
                 </div>
@@ -505,9 +506,9 @@
 
                 </div>
 
-                <div class="deal-shop-now">
-                    <a href="#" class="deal-btn">SHOP NOW
-                        <span id="arrow"></span>
+                <div class="deal-shop-now d-inline">
+                    <a href="#" class="deal-btn">
+                        SHOP NOW
                     </a>
                 </div>
             </div>
@@ -517,11 +518,396 @@
             </div>
         </div>
     </section>
+<!--    product-2-->
+    <section class="sec-product-2">
+        <div class="container d-flex" style="width: 100%;">
+
+            <div class="pr-one">
+                <div class="product-txt-2">
+                    <span class="txt-2-regular">NEW FORM THE FARM</span>
+                    <h4>
+                        <span class="txt-2-regular font-30">organic</span>
+                        <span class="txt-1-bold font-30">special</span>
+                    </h4>
+                </div>
+                <div>
+                    <div class="item-border">
+                        <a href="#" class="item-product-2 d-flex align-items-center">
+                            <div class="item-pic-2">
+                                <img src="./images/item-product/product-09.jpg" alt="">
+                            </div>
+                            <div class="item-title-2">
+                                <span class="txt-1-bold">Pomegranate</span>
+                                <div class="symbol-space"></div>
+                                <span class="txt-1-regular" style="color: #999;">21$</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item-border">
+                        <a href="#" class="item-product-2 d-flex align-items-center">
+                            <div class="item-pic-2">
+                                <img src="./images/item-product/product-10.jpg" alt="">
+                            </div>
+                            <div class="item-title-2">
+                                <span class="txt-1-bold">Carrot</span>
+                                <div class="symbol-space"></div>
+                                <span class="txt-1-regular" style="color: #999;">8$</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item-border">
+                        <a href="#" class="item-product-2 d-flex align-items-center">
+                            <div class="item-pic-2">
+                                <img src="./images/item-product/product-11.jpg" alt="">
+                            </div>
+                            <div class="item-title-2">
+                                <span class="txt-1-bold">Onion</span>
+                                <div class="symbol-space"></div>
+                                <span class="txt-1-regular" style="color: #999;">28$</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pr-two">
+                <div class="product-txt-2">
+                    <span class="txt-2-regular">NEW FORM THE FARM</span>
+                    <h4>
+                        <span class="txt-2-regular font-30">organic</span>
+                        <span class="txt-1-bold font-30">popular</span>
+                    </h4>
+                </div>
+                <div>
+                    <div class="item-border">
+                        <a href="#" class="item-product-2 d-flex align-items-center">
+                            <div class="item-pic-2">
+                                <img src="./images/item-product/product-13.jpg" alt="">
+                            </div>
+                            <div class="item-title-2">
+                                <span class="txt-1-bold">Eggplant</span>
+                                <div class="symbol-space"></div>
+                                <span class="txt-1-regular" style="color: #999;">21$</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item-border">
+                        <a href="#" class="item-product-2 d-flex align-items-center">
+                            <div class="item-pic-2">
+                                <img src="./images/item-product/product-12.jpg" alt="">
+                            </div>
+                            <div class="item-title-2">
+                                <span class="txt-1-bold">Potato</span>
+                                <div class="symbol-space"></div>
+                                <span class="txt-1-regular" style="color: #999;">8$</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item-border">
+                        <a href="#" class="item-product-2 d-flex align-items-center">
+                            <div class="item-pic-2">
+                                <img src="./images/item-product/product-11.jpg" alt="">
+                            </div>
+                            <div class="item-title-2">
+                                <span class="txt-1-bold">Asparagus</span>
+                                <div class="symbol-space"></div>
+                                <span class="txt-1-regular" style="color: #999;">28$</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pr-three">
+                <div class="product-txt-2">
+                    <span class="txt-2-regular">NEW FORM THE FARM</span>
+                    <h4>
+                        <span class="txt-2-regular font-30">organic</span>
+                        <span class="txt-1-bold font-30">random</span>
+                    </h4>
+                </div>
+                <div>
+                    <div class="item-border">
+                        <a href="#" class="item-product-2 d-flex align-items-center">
+                            <div class="item-pic-2">
+                                <img src="./images/item-product/product-16.jpg" alt="">
+                            </div>
+                            <div class="item-title-2">
+                                <span class="txt-1-bold">Orange</span>
+                                <div class="symbol-space"></div>
+                                <span class="txt-1-regular" style="color: #999;">21$</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item-border">
+                        <a href="#" class="item-product-2 d-flex align-items-center">
+                            <div class="item-pic-2">
+                                <img src="./images/item-product/product-17.jpg" alt="">
+                            </div>
+                            <div class="item-title-2">
+                                <span class="txt-1-bold">Cherry</span>
+                                <div class="symbol-space"></div>
+                                <span class="txt-1-regular" style="color: #999;">8$</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item-border">
+                        <a href="#" class="item-product-2 d-flex align-items-center">
+                            <div class="item-pic-2">
+                                <img src="./images/item-product/product-14.jpg" alt="">
+                            </div>
+                            <div class="item-title-2">
+                                <span class="txt-1-bold">Peas</span>
+                                <div class="symbol-space"></div>
+                                <span class="txt-1-regular" style="color: #999;">28$</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+<!-- Testimonials -->
+    <section class="sec-testimonials">
+        <div class="sec-testi-bg" style="width: 100%" >
+            <div class="testi-pic-other-1"><img src="./images/other-05.png" alt=""></div>
+            <div>
+                <div class="container">
+                    <div class="testi-content d-flex flex-column align-items-center">
+                        <div class="avatar">
+                            <img src="./images/avatar-01.jpg" alt="">
+                        </div>
+                        <div class="d-flex flex-column rating-name align-items-center">
+                            <span class="txt-2-regular">
+                                Christina Thiện
+                            </span>
+                            <span class="rating">
+                                ★★★★★
+                            </span>
+                        </div>
+                        <div class="testi-txt">
+                            <p class="txt-2-regular">
+                                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <div class="testi-pic-other-2"><img src="./images/other-04.png" alt=""></div>
+        </div>
+    </section>
+<!--blog-->
+    <section class="p-t-145 blog p-b-45">
+        <div class="container">
+            <div class="site p-b-70">
+                <div class="welcome-title d-flex align-items-center justify-content-center">
+                    <div class="txt-3-symbol posit-a">
+                        Keep Updated With Us
+                    </div>
+                    <div class="symbol posit-a">
+                        <img src="./images/symbol-02.png" alt="">
+                    </div>
+                </div>
+                <h3>FROM OUR BLOG</h3>
+            </div>
+            <div class="blog-block d-flex">
+
+                <div class="width-50 m-r-25 p-b-50">
+                    <a href="#">
+                        <img src="./images/blog-01.jpg" alt="blog.jpg">
+                    </a>
+                    <div class="p-t-30 d-flex">
+                        <div class="celendar m-r-35 d-flex flex-column align-items-center">
+                            <span class="txt-1-bold">19</span>
+                            <span class="txt-2-regular">October</span>
+                        </div>
+                        <div class="blog-detail">
+                            <h4 class="blog-title p-b-13">
+                                <a href="#" class="txt-1-bold">
+                                    There are many variations of passages of Lorem Ipsum available
+                                </a>
+                            </h4>
+                            <p class="txt-2-regular p-b-13">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod titncidunt ut laoreet dolore magna aliquam erat volutpat. Ut ...
+                            </p>
+                            <div class="readmore">
+                                <a href="#" class="d-flex align-items-center">
+                                    <div class="symbol-space m-r-10"></div>
+                                    <div class="txt-2-regular">READ MORE</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="width-50 m-l-25 p-b-50">
+                    <a href="#">
+                        <img src="./images/blog-02.jpg" alt="blog.jpg">
+                    </a>
+                    <div class="p-t-30 d-flex">
+                        <div class="celendar m-r-35 d-flex flex-column align-items-center posit-r">
+                            <span class="txt-1-bold">17</span>
+                            <span class="txt-2-regular">June</span>
+                        </div>
+                        <div class="blog-detail">
+                            <h4 class="blog-title p-b-13">
+                                <a href="#" class="txt-1-bold">
+                                    There are many variations of passages of Lorem Ipsum available
+                                </a>
+                            </h4>
+                            <p class="txt-2-regular p-b-13">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod titncidunt ut laoreet dolore magna aliquam erat volutpat. Ut ...
+                            </p>
+                            <div class="readmore">
+                                <a href="#" class="d-flex align-items-center">
+                                    <div class="symbol-space m-r-10"></div>
+                                    <div class="txt-2-regular">READ MORE</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--logo-->
+    <section class="logo-section">
+        <div class="container border-line">
+            <div class="sec-logo d-flex justify-content-around">
+                <a href="#">
+                    <img src="./images/symbol-07.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/symbol-08.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/symbol-09.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/symbol-10.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/symbol-11.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+<!--subscribe-->
+    <section class="sec-subscribe">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="subs-txt d-flex flex-column justify-content-center">
+                    <h4 class="txt-1-bold"> SUBSCRIBE NEWSLETTER. </h4>
+                    <p class="txt-2-regular"> Get e-mail updates about our latest shop and special offers. </p>
+                </div>
+                <div class="input-subs">
+                    <form action="#" class="d-flex">
+                        <input type="text" placeholder="Your email address" class="input-subs-place">
+                        <button class="subs-btn"> Subscribe </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--footer-->
+    <footer class="bg-footer">
+        <div class="container">
+            <div class="p-tb-60 d-flex justify-content-between">
+                <div class="footer01">
+                    <div class="footer01-title p-b-45">
+                        <a href="#">
+                            <img src="./images/logo-01.png" alt="">
+                        </a>
+                    </div>
+                    <p class="txt-2-regular p-b-16">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                    <ul>
+                        <li class="p-b-10">
+                            <span class="m-r-10"><img src="./images/icon-mail.png" alt=""></span>
+                            <span class="txt-2-regular">markrussell@example.com</span>
+                        </li>
+                        <li class="p-b-10">
+                            <span class="m-r-10"><img src="./images/icon-pin.png" alt=""></span>
+                            <span class="txt-2-regular"> No 40 Baria Sreet 133/2, NewYork</span>
+                        </li>
+                        <li class="p-b-10">
+                            <span class="m-r-10"><img src="./images/icon-phone.png" alt=""></span>
+                            <span class="txt-2-regular">(785) 977 5767</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer02-d d-flex flex-column align-items-center">
+                    <div class="footer02-title d-flex align-items-center">
+                        <h4 class="txt-1-bold">Information</h4>
+                    </div>
+                    <ul>
+                        <li class="p-b-16 txt-2-regular">
+                            <a href="#">About our shop</a>
+                        </li>
+                        <li class="p-b-16 txt-2-regular">
+                            <a href="#">Top seller</a>
+                        </li>
+                        <li class="p-b-16 txt-2-regular">
+                            <a href="#">Our blog</a>
+                        </li>
+                        <li class="p-b-16 txt-2-regular">
+                            <a href="#">New products</a>
+                        </li>
+                        <li class="p-b-16 txt-2-regular">
+                            <a href="#">Secure shopping</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer02-d">
+                    <div class="footer02-title d-flex align-items-center">
+                        <h4 class="txt-1-bold">My Account</h4>
+                    </div>
+                    <ul>
+                        <li class="p-b-16 txt-2-regular">
+                            <a href="#">My account</a>
+                        </li>
+                        <li class="p-b-16 txt-2-regular">
+                            <a href="#">Discount</a>
+                        </li>
+                        <li class="p-b-16 txt-2-regular">
+                            <a href="#">Personal information</a>
+                        </li>
+                        <li class="p-b-16 txt-2-regular">
+                            <a href="#">My address</a>
+                        </li>
+                        <li class="p-b-16 txt-2-regular">
+                            <a href="#">Order history</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright border-line-footer p-tb-24">
+                <span class="txt-2-regular">Copyright © 2019 Louis. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+
+    </script>
 </body>
 </html>
